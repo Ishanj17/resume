@@ -1,0 +1,239 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+ 
+\title{res-03-08-25}
+\author{Ishan Joshi}
+\date{August 2025}
+%-------------------------
+% Rezume, a latex resume template for developers
+% Author : Nanu Panchamurthy
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+ 
+% Hope this resume template helps you land an awesome job. If you found this helpful, please consider starring the github repo here, .
+%-------------------------
+ 
+ 
+%------------PACKAGES----------------
+\documentclass[a4paper,9pt]{article}
+ 
+\usepackage{verbatim}
+\usepackage{titlesec}
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{latexsym}
+\usepackage{marvosym}
+\usepackage[empty]{fullpage}
+\usepackage[hidelinks]{hyperref}
+\usepackage[normalem]{ulem}
+\usepackage[english]{babel}
+ 
+\input glyphtounicode
+\pdfgentounicode=1
+ 
+%----------FONT OPTIONS-------------------
+\usepackage[default]{sourcesanspro}
+\urlstyle{same}
+%-----------------------------------------
+ 
+ 
+%----------MARGIN OPTIONS-----------------
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0in}
+\renewcommand{\footrulewidth}{0in}
+\setlength{\tabcolsep}{0in}
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\topmargin}{-0.9in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\textheight}{1.45in}
+\raggedbottom{}
+\raggedright{}
+%------------------------------------------
+ 
+ 
+%--------SECTIONING COMMANDS---------
+\titleformat{\section}
+  {\scshape\large}{}
+    {0em}{\vspace{-5pt}\color{blue}}
+\titlespacing{\section}{0pt}{12pt}{6pt} % Adjust the spacing here
+%-------------------------------------
+ 
+ 
+%--------REDEFINITIONS----------------
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand{\ULdepth}{2pt}
+%-------------------------------------
+ 
+ 
+%--------CUSTOM COMMANDS--------------
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[rightmargin=0.11in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+\newcommand{\resumeSectionType}[3]{\item\begin{tabular*}{0.96\textwidth}[t]{p{0.15\linewidth}p{0.02\linewidth}p{0.81\linewidth}}\textbf{#1} & #2 & #3\end{tabular*}\vspace{-2pt}}
+\newcommand{\resumeTrioHeading}[3]{\item\small{\begin{tabular*}{0.96\textwidth}[t]{l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r}\textbf{#1} & \textit{#2} & #3\end{tabular*}}}
+\newcommand{\resumeQuadHeading}[4]{\item\begin{tabular*}{0.96\textwidth}[t]{l@{\extracolsep{\fill}}r}\textbf{#1} & #2 \\ \textit{\small#3} & \textit{\small #4} \\ \end{tabular*}}
+\newcommand{\resumeQuadHeadingChild}[2]{\item\begin{tabular*}{0.96\textwidth}[t]{l@{\extracolsep{\fill}}r}\textbf{\small#1} & {\small#2} \\ \end{tabular*}}
+\newcommand{\resumeHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeHeadingListEnd}{\end{itemize}}
+\usepackage{graphicx}
+%-------------------------------------------
+ 
+ 
+%__________________RESUME____________________
+% You can rearrange sections in any order you may prefer
+\begin{document}
+ 
+%-----------CONTACT DETAILS------------------
+ 
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Huge Ishan Joshi \vspace{2pt}} & \ Indore, India \\
+  \href{https://www.linkedin.com/in/ishan-joshi-469907218/}{\uline{LinkedIn}}  {|} \href{https://github.com/Ishanj17?tab=repositories}{\uline{Github}} {|} \href{https://portfolio-ish-jo.vercel.app/#/}{\uline{Portfolio}} & 
+  \href{mailto:ishanjosh3875@gmail.com}{\u{ ishanjosh3875@gmail.com}}  \\
+\end{tabular*}
+%--------------------------------------------
+ 
+ 
+ 
+%-----------EXPERIENCE-----------------------
+\section{Experience}
+\resumeHeadingListStart{}\resumeQuadHeading{Product Software Engineer}{Sept 2024 -- present}
+  {Trianz}{Hyderabad}
+
+\resumeItemListStart{}
+
+\resumeItem{Developed a application for Microsoft SQL Server and MySQL with pre-migration analysis, RDS provisioning, and native migration workflows using React, TypeScript, and AWS services (RDS, DMS), enabling automated database migrations.}
+
+\resumeItem{Architected and developed backend service using FastAPI, PostgreSQL, and AWS SDK (boto3), automating RDS discovery, provisioning, and migration workflows with Ansible integration, supporting migration of 50+ databases from on-premise to AWS RDS}
+
+\resumeItem{Built scalable application architecture with modular design patterns, reusable components, and integrated logging systems, supporting concurrent migration workflows and providing seamless user experience across complex multi-step processes.}
+
+\resumeItemListEnd{}
+ 
+ % # intern
+  \resumeQuadHeading{SDE Intern}{May 2023 -- July 2023}
+  {Decimal Point Analytics}{Mumbai}
+  \resumeItemListStart{}
+   \resumeItem{Optimized complex SQL queries, improving data retrieval performance, and enabling faster analytics for production environments}
+    \resumeItem{Designed and implemented database schemas using Oracle Data Modeler, streamlining ETL workflows and reducing data processing time by 25\%}
+    \resumeItem{Built data pipelines using Pentaho Data Integration, successfully integrating data from MongoDB and relational databases, improving data quality.}
+ 
+  \resumeItemListEnd{}
+\resumeHeadingListEnd{}
+%---------------------------------------------
+ 
+%--------------SKILLS------------------------
+\section{Skills}
+\resumeHeadingListStart{}
+\resumeSectionType{Languages}{:}{Python, JavaScript, TypeScript, SQL, C++, C}
+\resumeSectionType{Frameworks}{:}{FastAPI, React.js, Redux, Bootstrap, TailwindCSS}
+\resumeSectionType{Course Work}{:}{Data Structures \& Algorithms, Database Management Systems, Software Development Life Cycle}
+\resumeSectionType{Tools}{:}{VS Code, Pentaho Data Integration, Azure DevOps, Git, PostgreSQL}
+\resumeSectionType{Soft Skills}{:}{Cross-functional collaboration, Agile project management, Technical documentation}
+ 
+\resumeHeadingListEnd{}
+%--------------------------------------------
+ 
+%-----------EDUCATION-------------------------
+\section{Education}
+\resumeHeadingListStart{}
+  \resumeQuadHeading{Maulana Azad National Institute of Technology, Bhopal}{2020 -- 2024}
+  {Bachelor of Technology
+}{CGPA: 9.00}
+\resumeHeadingListEnd{}
+ 
+\resumeHeadingListStart{}
+  \resumeQuadHeading{St Norbert S.S. School}{2020}
+  {Central Board of Secondary Education, Class XII}{Percentage: 94.2}
+\resumeHeadingListEnd{}
+ 
+\resumeHeadingListStart{}
+  \resumeQuadHeading{St Norbert S.S. School}{2018}
+  {Central Board of Secondary Education, Class X}{Percentage: 93.4}
+\resumeHeadingListEnd{}
+%---------------------------------------------
+ 
+% ... existing code ...
+ 
+%-----------PROJECTS--------------------------
+\section{Projects}
+\resumeHeadingListStart{}
+ 
+  % Remove this commented out section entirely
+  % \resumeTrioHeading{ByteCart – Modern Ecommerce Web App}{FastAPI, React.js, MongoDB, TailwindCSS, Redux Toolkit}{\href{https://github.com/Ishanj17/Notary/tree/main}{\uline{}}}
+  % \resumeItemListStart{}
+  %    \resumeItem{Developed a full-stack ecommerce platform for tech products using Python (FastAPI) and React.js.}
+  %   \resumeItem{Implemented responsive frontend using TailwindCSS, with state management via Redux Toolkit and asynchronous data handling via React Query v4.}
+  %   \resumeItem{Developed backend APIs with FastAPI, leveraging its high performance, dependency injection, and async capabilities.}
+  %   \resumeItem{Integrated OAuth2 for secure user authentication and role-based access (buyers/admins).}
+  % \resumeItemListEnd{}
+ 
+  % Remove this extra \resumeHeadingListStart{} - it's nested incorrectly
+  % \resumeHeadingListStart{}
+ 
+    \resumeTrioHeading{Stock Market Trading \& Portfolio Tracker}{React.js, Tailwind CSS, Node.js, Express.js, PostgreSQL, }{\href{https://github.com/Ishanj17/stock-market-app}{\uline{Source Code}}}
+  \resumeItemListStart{}
+     \resumeItem{Built a full-stack stock market trading platform with React.js, Node.js, Express, and PostgreSQL, enabling real-time stock/mutual fund data visualization, portfolio tracking, and secure user authentication}
+    \resumeItem{Integrated live market APIs to provide real-time price updates, watchlist management, and transaction history, using Axios, RESTful APIs, and optimized database queries.}
+    \resumeItem{Implemented responsive, modern UI with Tailwind CSS and React hooks, following MVC architecture, secure coding practices, and performance optimization techniques.}
+  \resumeItemListEnd{}
+    
+  %  \resumeTrioHeading{Task Tracker}{Nodejs, ExpressJS, EJS}{\href{https://github.com/Ishanj17/Task-Tracker}{\uline{Source Code}}}
+  % \resumeItemListStart{}
+  %    \resumeItem{Leveraged EJS templates to dynamically render content based on user actions.}
+  %   \resumeItem{Implemented a custom JavaScript date module to fetch and display the current date.}
+  %   \resumeItem{Created a responsive and user-friendly UI using CSS and utilized Express to handle routing and server requests.}
+  % \resumeItemListEnd{}
+  
+  % Remove this orphaned \resumeItemListEnd{} - it's not needed
+  % \resumeItemListEnd{}
+\resumeHeadingListEnd{}
+%--------------------------------------------
+ 
+% ... existing code ...
+%--------------------------------------------
+ 
+ 
+ 
+ 
+\section{Positions of Responsibility}
+\resumeHeadingListStart{}
+ 
+\resumeQuadHeading{Training and Placement Cell}{July 2023 -- April 2024}
+{Placement Coordinator}{}
+\vspace{-2mm}
+\resumeItemListStart{}
+\resumeItem{Led 50+ training sessions and workshops, coordinated 1000+ student interviews, and streamlined interview processes to improve candidate and recruiter experience, contributing to higher campus placement.}
+\resumeItemListEnd{}
+ 
+\resumeQuadHeading{Unnat Bharat Abhiyan}{Sept 2022 -- Aug 2023}
+{Finance Coordinator}{}
+\vspace{-2mm}
+\resumeItemListStart{}
+\resumeItem{Assessed rural development challenges and managed 5L+ budget for sustainable, community-driven solutions, implementing 5 projects benefiting 1000+ villagers for long-term growth.}
+\resumeItemListEnd{}
+ 
+\resumeHeadingListEnd{}
+ 
+ 
+ 
+% \section{Achievements}
+% \resumeHeadingListStart{}
+%   \resumeItemListStart{}
+%     \resumeItem{Achieved Global Rank 206 in March CookOff on Codechef (Maximum rating 1773).}
+%     \resumeItem{Solved over than 600+ DSA problems across platforms like Codeforces, Leetcode, and Geekforgeeks}
+%   \resumeItemListEnd{}
+% \resumeHeadingListEnd{}
+ 
+\end{document}
+ 
+\begin{document}
+ 
+\maketitle
+ 
+\section{Introduction}
+ 
+\end{document}
+ 

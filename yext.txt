@@ -1,0 +1,219 @@
+The coding question was based on graphs, where I had to work with a grid of 1’s and 0’s, with 1 representing bomb cells. Given a source cell, I had to detonate all connected cells using an approach similar to the Flood Fill algorithm and return the total count of detonated cells
+
+
+ In the debugging section, I was given code with multiple banking operation functions containing bugs. I analyzed and fixed most of them, and with the help of hints from the interviewer, I resolved the remaining issues as well. I successfully cleared this round.
+
+
+In Round 2 (2 hours), the format was similar. The coding part again involved a graph problem where I had to apply either DFS or BFS to solve a grid-based task, similar to the Flood Fill problem. The debugging task involved fixing bugs in the Game of Life simulation. Although I managed to fix a few issues, I couldn’t resolve all bugs within the given time, and the problem remained partially solved.
+
+
+They provided me some codes to debug.It was an banking system debug code.Also they provided me some leet code questions related to minesweeper game.
+
+Debugging: A banking application was provided, and I had to debug four issues. With some hints from the interviewer, I was able to solve all four. 
+
+Coding: A Minesweeper-like problem was given, which could be solved using the flood-fill algorithm (either via DFS or BFS). I implemented the solution successfully and cleared the round.
+
+
+ Round 2 (March 10 & March 13, 2025) - Debugging (1 hour) + Coding (1 hour) This round was conducted in two parts on different days. Debugging Round (March 10, 2025): The problem was a Game of Life simulation. Despite my best efforts, I could only fix the logical mistakes but struggled with other parts. Unfortunately, the interviewer didn't provide much guidance. Coding Round (March 13, 2025): The task was to print the top 10 leaderboard of a game, where the required data had to be retrieved from an API provided by the interviewer.
+
+
+Graph related problems, Game of Life Simulation, Leaderboard Generation
+
+
+Minersweep problem related to DSA graphs
+
+
+one related to DSA and another involving debugging an application. We are required to solve both within 1 hour. For the debugging part, they provide a bank application code with some bugs that we need to fix.
+DSA- we need to return the count of total mines destroyed in a matrix.
+
+Debugging a banking application with given use cases.
+
+debugging a banking app with multiple functions and 30 min for a LeetCode graph problem about counting mines and the area they blow up in a 2d matrix
+
+
+ design an airline search system object-oriented design, a coding question about calling APIs that have info players from a game, and returning the top 10 scores, and then a debug of a game of life simulation.
+
+Debug Conway's Game of Life
+
+
+Debugging questions was to fix the code for a dummy bank system made up of bank, account, person class. Code was very verbose I and took time to fully understand it. Coding question was similar to minesweeper. Can be solved by Flood fill algorithm or BFS or DFS.
+
+
+Given a graph that's full of mines like in Minesweeper, find how far a given cell is from the nearest mine. - There's another one similar to the question above but with pantries full of snacks that you have to reach, and with walls in the way that you can't traverse over. - DFS and BFS are good to know well. Debugging: - The main debugging question is about four different functions related to banking software. For example, one function is about John transferring money to Bill, but it is failing test cases and you have to figure out why. The reasons are something like you have to add a check for how much money a person has in the bank, or you have to make realize that the code is in slightly the wrong order; small, trivial, but tricky mistakes in the code. System Design: - They basically just ask you about how you would design an airport system. So think about how would you make the employee class, the passenger class, the airport class, the flight class, etc. And then how they work together.
+
+Debug a program that makes a tree into a binary search tree Debug Conway's game of life Design an airport (design relational database schema, how to get shortest flight, data model)
+
+
+Generic algorithmic questions for the technical, given a small file or two to look for errors in the debug interview, lots of "tell me about a time when" questions for behavioral, and describing the class structure for a system for the system design interview.
+
+
+BFS Uniform Cost Search on Matrix
+2D array find word and debug a program
+Debugging question about BST and design tic tac toe
+My question included tree search and a Depth-First Search problem
+
+debugging: given a bst tree search code in java (not sure if you could change language), goal is to find out couple of errors with the code 2. coding : design tic tac toe. After coding it out, will ask for optimization.
+
+Debug binary tree - Reorganize adjacent characters in a string
+
+Debug Game of Life, BFS, Tree questions
+
+How would you design an airways system
+
+I received a coding problem where a grid had certain "star"-ed positions. The task was to fill the grid with the distance each position is to the nearest "star" position.
+
+
+some design question about airports
+
+I was asked to design a class that could handle the needs of an airport; adding and removing stops, etc.
+
+
+Implement an aspect of the minesweeper game
+
+Design a class for airline service which receives two queries: 1. Check whether a route exists from one airport to another 2. Find the cheapest airline ticket from one airport to another
+
+
+Print values of matrix using snake traversal.
+
+Do a spiral traversal of a matrix and print out the values.
+
+Snake traversal of a 2D array
+
+eorder binary tree, game of life, snake matrix, modified version of num islands
+
+Fix this "reorder tree" method. Basically just needed to know depth first search. The other question, the one that the interviewer alleges I messed up was about converting numbers to their alphabetical representation (-307 -> negative three hundred seven).
+
+
+Onsite was debugging code of life (do the life of code challenge on leetcode and youll know what one of the bug is), a BFS/DFS question, print array in spiral order, and final behavioral round.
+
+
+Given a 2D array representing a minefield, return the number of total detonated cells. 1 in the array means it's a bomb and will detonate all surrounding cells
+
+
+Debug code for reordering a descending binary tree
+
+
+Given a 2D array, find if a given word is in it.
+
+given an array , print out the values in a snake like pattern.
+
+Find 3 bugs in some code (related to Tree Traversal) recursively not iteratively
+
+Encode a string
+
+string manipulation, cousins of binary tree
+
+descending tree code debug
+
+Debug the Game of Life
+
+Debug a function that manipulates binary tree
+
+
+Bug detection on eclipse: for conway's game of life
+
+Given the root of a tree and a target node, find the cousins of the target node (those that are on the same level as the target node, but do not share the same parent).
+
+Given a dictionary of words and a string, return true if the string is a combination of words in the dictionary and false if not
+
+Given a number n, find at least 2 numbers a,b < n such that a = (i^3 + j^3) = (k^3 + l^3) and b = (p^3 + q^3) = (r^3 + s^3)
+
+
+Classic Coin Change
+
+String manipulation, loop through a string to find a pattern.
+
+
+imploment intToStr(); find lca
+
+Common ancestor in a tree
+
+
+Questions involved maze search with obstacles, LCA of a node in a tree, largest contiguous sum of an array, dynamic algorithms to make change and debugging conway's game of life.
+
+I was asked the "Number of Laser Beams in a Bank" problem, where I had to figure out how many laser beams could be formed between security devices represented in a 2D grid.
+
+My approach was to first understand the rules clearly, each floor is a row, and each '1' is a device. I counted the number of devices on each non-empty floor and ignored completely empty rows.
+
+Then, I noticed that the number of beams formed between any two consecutive non-empty floors is just the product of the device counts on those floors. So, I simply multiplied the counts of each consecutive pair of non-empty rows and added them up to get the answer. I explained my logic and reasoning step-by-step, keeping the solution simple and efficient.
+
+This round was quite practical, more like a real engineering task. I received several API endpoints and was asked to fetch, process, and aggregate data to build a leaderboard of the top 10 players, based on specific criteria provided.
+
+The round had two parts, the first part (core leaderboard task) was mandatory, while the second part included three bonus sub-problems, such as implementing different sorting options or advanced filters
+
+ how I collaborate in teams, my approach to tough problems, and scenarios related to conflict resolution and working in ambiguous situations.
+
+
+
+*. Given a bank application, how would you debug a function to find basic logic issues or premature returns?
+Ans. Identify and fix bugs in a bank application function to ensure correct logic and flow.
+Check for early returns that may skip necessary logic, e.g., returning if account balance is zero without processing withdrawal.
+Ensure all edge cases are handled, such as negative amounts or invalid account numbers.
+Verify that all conditions are correctly evaluated, e.g., using '==' instead of '=' in comparisons.
+Look for off-by-one errors in loops or array indexing that could lead to incorrect data processing.
+Confirm that resources are properly released, such as closing database connections after use.*
+
+
+esign an airline system for managing flights, bookings, and passenger information.
+Create a database to store flight schedules, passenger details, and booking information
+Develop a user interface for passengers to search for flights, book tickets, and manage their bookings
+Implement a payment gateway for secure transactions
+Include features like seat selection, meal preferences, and baggage allowance
+Integrate with external systems for real-time flight status updates
+
+
+. Describe your approach to debugging errors in functions related to banking software.
+Ans. Debugging errors in functions related to a banking software requires attention to detail and understanding of financial regulations.
+Review the code for any syntax errors or logical mistakes
+Check for proper error handling and exception handling
+Verify that the functions are following banking regulations and security protocols
+Test the functions with different inputs to identify and fix any bugs
+
+
+Debug errors in functions related to a banking software
+Ans. Debugging errors in functions related to a banking software requires attention to detail and understanding of financial regulations.
+Review the code for any syntax errors or logical mistakes
+Check for proper error handling and exception handling
+Verify that the functions are following banking regulations and security protocols
+Test the functions with different inputs to identify and fix any bugs
+
+
+ Design an airline system for managing flights, bookings, and passenger information.
+Create a database to store flight schedules, passenger details, and booking information
+Develop a user interface for passengers to search for flights, book tickets, and manage their bookings
+Implement a payment gateway for secure transactions
+Include features like seat selection, meal preferences, and baggage allowance
+Integrate with external systems for real-time flight status updates
+
+Coding - Graph Question: In the coding part of the interview, I was presented with a challenging question related to graphs. The task was to work with a grid consisting of 1's and 0's, where each 1 represented a bomb cell. Additionally, I was given the coordinates of a source cell (source row and source column). My objective was to detonate each cell connected to the given source cell and then return the number of cells that were successfully detonated.
+**
+https://www.geeksforgeeks.org/dsa/flood-fill-algorithm/
+
+
+anking Operations Function: In the debugging part of the interview, I was given a pre-written code that contained various functions related to banking operations. However, each function had bugs that needed to be identified and corrected in order to pass all the test cases.
+With careful examination and analysis of the code, I managed to identify and resolve some of the bugs present in the functions. The interviewer was supportive and provided hints that proved to be helpful in resolving the remaining issues. Through collaboration and my problem-solving skills, I was able to fix all the bugs and ensure that each function worked as intende
+
+Round 2
+For the coding part, I was presented with another problem related to graphs. This time, the task involved practicing Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms. The problem was similar to the one in the previous round, where I needed to work with a grid and apply DFS or BFS to achieve a specific objective. Like https://www.geeksforgeeks.org/dsa/flood-fill-algorithm/
+Debugging - Game of Life: In the debugging part of the interview, I was given a pre-written code for the popular "Game of Life" simulation. However, the code contained bugs that needed to be identified and fixed in order to pass all the test cases.
+
+
+Coding (Graph-based Problem):
+I was given a problem based on a 2D grid consisting of 1s and 0s, where each 1 represented a bomb cell. Along with the grid, I was given the coordinates of a source cell. The objective was to simulate the detonation of all connected bomb cells starting from the source and return the total number of cells detonated. The problem resembled the Flood Fill Algorithm.
+Reference: Flood Fill Algorithm - GeeksforGeeks
+
+2. Debugging (Banking Operations):
+The debugging portion involved a set of pre-written functions handling banking operations. Each function contained logical or syntactical errors that needed to be identified and corrected to pass the test scenarios. I managed to fix all the bugs and ensured that the functions behaved as expected.
+
+I cleared this round successfully.
+
+Round 3 — Virtual Face-to-Face Interview (1 hour, Google Meet)
+This round focused entirely on debugging, particularly involving API integration and data handling.
+
+I was provided with API endpoints containing data for top player performances across multiple game types (around 5 in total). Each player could participate in multiple games and have multiple top scores. The task was to extract and process the data to identify the top 10 performers across all games.
+
+Additionally, I was required to handle edge cases — such as when a player appeared multiple times due to having top scores in the same or different games. The challenge involved careful data aggregation and proper handling of duplicates or overlapping entries.
+
+Although I managed to resolve several issues and implement parts of the required logic, I could not fully complete the problem during the allotted time.
+
+

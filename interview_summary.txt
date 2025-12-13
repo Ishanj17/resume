@@ -1,0 +1,61 @@
+INTERVIEW QUESTION SUMMARY (CATEGORIZED, NON-REPETITIVE, BUT INCLUDING ALL THEMES)
+
+1. CODING / DSA PROBLEMS  
+Coding questions overwhelmingly focused on graph-based and matrix-based challenges. The most repeated pattern involved grids of 1s and 0s, with 1 representing bombs or mines. Common tasks included detonating all connected bomb cells starting from a source position using BFS, DFS, or Flood Fill. Several variations reappeared across descriptions: counting detonated bombs, computing distances to the nearest mine, implementing parts of Minesweeper, or searching for words in a 2D matrix.
+
+Additional matrix problems that appeared include snake traversal, spiral traversal, modified number-of-islands, uniform cost search, and maze search with obstacles. Some interviews included problems like the “Number of Laser Beams in a Bank,” where rows of devices needed logical aggregation.
+
+Tree-based problems included finding cousins of a node, performing tree search, reordering a binary tree, converting a tree into a BST, fixing DFS traversal code, and implementing lowest common ancestor. Dynamic programming problems such as coin change and word break were also mentioned. There were also string problems: encoding strings, rearranging characters, converting integers to English words, and identifying patterns.
+
+Repeated themes across candidates: flood fill, BFS/DFS, minesweeper-style grids, tree traversal debugging, maze search, matrix traversal, string manipulation, and dynamic algorithms.
+
+2125. Number of Laser Beams in a Bank
+733 – Flood Fill
+200 – Number of Islands
+529 – Minesweeper
+994 – Rotting Oranges (grid BFS expansion pattern)
+289 – Game of Life
+79 – Word Search
+54 – Spiral Matrix
+59 – Spiral Matrix II
+236 – Lowest Common Ancestor of a Binary Tree
+993 – Cousins in Binary Tree
+273 – Integer to English Words
+767 – Reorganize String
+139 – Word Break
+53 – Maximum Subarray (Kadane’s Algorithm)
+322 – Coin Change
+1244 – Design A Leaderboard
+347 – Top K Frequent Elements (similar aggregation)
+973 – K Closest Points (priority queue based top-K)
+542 – 01 Matrix (distance to nearest 0)
+127 – Word Ladder (BFS shortest path pattern)
+394 – Decode String
+
+
+2. DEBUGGING QUESTIONS  
+Debugging was a major and frequently repeated portion of the interview process, especially for banking-related code. Numerous candidates described scenarios where they were given a banking application with multiple buggy functions. These functions typically involved transfers, withdrawals, deposits, validation checks, logic flow issues, incorrect comparisons, premature returns, missing checks for negative amounts, and edge‑case handling.
+
+The banking debugging problems consistently required understanding account balance logic, correct order of operations, and validating inputs. Debugging Game of Life was also highly repeated, with recurring issues in neighbor counting, boundary checks, modifying state mid‑iteration, and incorrect application of simulation rules.
+
+Other debugging tasks included tree traversal code, BST search code, converting a tree to BST, tic‑tac‑toe logic, string manipulation bugs, and detecting logical mistakes in DFS/BFS implementations. There were cases involving debugging API-driven leaderboard code, fixing premature returns, off-by-one errors, and handling duplicate entries.
+
+Repeated debugging themes: banking applications (most common), Conway’s Game of Life (very common), binary tree and BST debugging, DFS/BFS logic errors, and API data handling mistakes.
+
+3. SYSTEM DESIGN QUESTIONS  
+System design questions frequently centered on designing an ai7777777777777777777777777777777777777777777777777rport or airline system. Candidates described tasks such as modeling flights, airports, passengers, employees, routes, bookings, seat selection, baggage, and payments. Others were asked to design airline route-checking systems, including verifying whether a path existed or finding the cheapest ticket using graph algorithms.
+
+Another common theme involved designing a leaderboard system for games. These tasks required fetching data via APIs, merging multiple sources, removing duplicates, handling players with multiple entries, and producing a top‑10 list. Some variations added sorting modes or filtering options as optional extensions.
+
+Additional system design questions included designing tic-tac-toe, modeling class structures for various systems, and creating relational schemas for flights.
+
+Repeated themes: airport/airline system design, leaderboard systems with API integration, object‑oriented modeling, and simple multi‑class designs.
+
+4. MISCELLANEOUS QUESTIONS AND BEHAVIORAL CONTEXT  
+Additional problems included encoding strings, finding contiguous array sums, manipulating matrices, exploring snacks in pantries with obstacles, and searching for words in dictionaries. There were also number theory problems, such as finding numbers expressible as sums of cubes in multiple ways.
+
+API-centric tasks involved extracting, aggregating, and ranking player scores. Behavioral questions focused on team collaboration, conflict resolution, ambiguity handling, and work style.
+
+Repeated miscellaneous themes: API data handling, string manipulation, maze and obstacle problems, and behavioral questions about teamwork and problem-solving.
+
+This summary covers all material provided, removes duplicates, but notes all repeated patterns and includes every unique topic mentioned in the original text.
